@@ -26,32 +26,57 @@ static List<Post> posts = [
     assetPath: 'assets/video/v1.mp4',
   ),
   Post(
-      id: '2',
-      user: User.users[2],
+      id: '1',
+      user: User.users[0],
       type: PostType.video,
       caption: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit',
       assetPath: 'assets/video/v2.mp4'
   ),
   Post(
-      id: '3',
-      user: User.users[3],
+      id: '1',
+      user: User.users[0],
+      type: PostType.image,
+      caption: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit',
+      assetPath: 'assets/images/img5.jpg'
+  ),
+  Post(
+      id: '1',
+      user: User.users[0],
       type: PostType.video,
       caption: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit',
       assetPath: 'assets/video/v2.mp4'
   ),
   Post(
-      id: '4',
+      id: '1',
       user: User.users[0],
       type: PostType.video,
       caption: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit',
       assetPath: 'assets/video/v5.mp4'
   ),
   Post(
-      id: '5',
+      id: '1',
+      user: User.users[0],
+      type: PostType.video,
+      caption: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit',
+      assetPath: 'assets/video/v3.mp4'
+  ), Post(
+      id: '1',
+      user: User.users[0],
+      type: PostType.video,
+      caption: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit',
+      assetPath: 'assets/video/v5.mp4'
+  ), Post(
+      id: '1',
+      user: User.users[0],
+      type: PostType.video,
+      caption: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit',
+      assetPath: 'assets/video/v4.mp4'
+  ), Post(
+      id: '2',
       user: User.users[1],
       type: PostType.video,
       caption: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit',
-      assetPath: 'assets/video/v1.mp4'
+      assetPath: 'assets/video/v2.mp4'
   ),
 ];
 }

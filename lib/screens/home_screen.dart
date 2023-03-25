@@ -35,8 +35,6 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
-
-
 class _CustomAppBar extends StatelessWidget with PreferredSizeWidget {
   const _CustomAppBar({Key? key}) : super(key: key);
 
